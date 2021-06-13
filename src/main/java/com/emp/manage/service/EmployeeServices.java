@@ -7,5 +7,6 @@ import com.emp.manage.model.Employee;
 public interface EmployeeServices {
 	
 	List<Employee> getAllEmployeeList();
+	void create(Employee employee);
 
 }
